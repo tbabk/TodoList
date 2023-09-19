@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    background-color: #F8F6F4;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    background-color: #C4DFDF;
+}
+
+.navbar h3 {
+    padding-right: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    margin-top: auto;
+    background-color: #C4DFDF;
+}
+
+footer p {
+    padding-left: 2rem;
+}
+
+.todo-txt {
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.todo-txt > p {
+    margin: 0;
+    margin-left: 0.3rem;
+}
+
+
+input[type=text] {
+    width: 70%;
+    height: 1.8rem;
+    border-radius: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+}
+
+input[type=submit] {
+    width: 6%;
+    border-radius: 10px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=checkbox] {
+    accent-color: grey;
+}
+
+.todos {
+    width: 70%;
+}
+
+.todo {
+    font-size: 22px;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 2em auto;
+    gap: 0.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #E3F4F4;
+    border: 1px solid black;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.head {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+
+label {
+    flex: 1;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-container-inner {
+    display: grid;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color:#C4DFDF;
+    border: none;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+}
+
+button:hover {
+    background-color: #F8F6F4;
+    border: 2px solid #C4DFDF;
+}
